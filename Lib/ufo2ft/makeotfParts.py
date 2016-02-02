@@ -168,7 +168,7 @@ class FeatureOTFCompiler(object):
         """
 
         if self.mtiFeaFiles is not None:
-            for tag, feapath in self.mtiFeaFiles.items():
+            for tag, feapath in self.mtiFeaFiles.iteritems():
                 with open(feapath) as feafile:
                     self.outline[tag] = mtiLib.build(feafile, self.outline)
 
