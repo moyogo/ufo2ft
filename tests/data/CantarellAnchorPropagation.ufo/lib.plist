@@ -26,6 +26,9 @@
       <string>circumflexcomb.loclVIET</string>
       <string>tildecomb.loclVIET</string>
       <string>circumflexcomb_tildecomb</string>
+      <string>kasra-ar</string>
+      <string>shadda-ar</string>
+      <string>shadda_kasra-ar</string>
     </array>
   </dict>
 </plist>

@@ -6,10 +6,16 @@
     <string>circumflexcomb.loclV_I_E_T_.glif</string>
     <key>circumflexcomb_tildecomb</key>
     <string>circumflexcomb_tildecomb.glif</string>
+    <key>kasra-ar</key>
+    <string>kasra-ar.glif</string>
     <key>o</key>
     <string>o.glif</string>
     <key>ocircumflextilde</key>
     <string>ocircumflextilde.glif</string>
+    <key>shadda-ar</key>
+    <string>shadda-ar.glif</string>
+    <key>shadda_kasra-ar</key>
+    <string>shadda_kasra-ar.glif</string>
     <key>tildecomb.loclVIET</key>
     <string>tildecomb.loclV_I_E_T_.glif</string>
   </dict>
