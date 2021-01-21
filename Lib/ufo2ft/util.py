@@ -284,6 +284,15 @@ def unicodeInScripts(uv, scripts):
     return not sx.isdisjoint(scripts)
 
 
+def unicodeInCategories(uv, categories):
+    """Check UnicodeData's Category property for unicode codepoint
+    'uv' and return True if it is in the set of 'categories' provided,
+    False if it it not.
+    """
+    category = unicodedata.category(chr(uv))
+    return category in categories
+
+
 def calcCodePageRanges(unicodes):
     """Given a set of Unicode codepoints (integers), calculate the
     corresponding OS/2 CodePage range bits.
