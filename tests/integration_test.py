@@ -242,9 +242,7 @@ class IntegrationTest:
         expectTTX(ttf, expected_ttx)
 
     def test_Instructions(self, instructions_ufo):
-        ttf = compileTTF(
-            instructions_ufo, reverseDirection=False, removeOverlaps=False
-        )
+        ttf = compileTTF(instructions_ufo, reverseDirection=False, removeOverlaps=False)
         assert "cvt " in ttf
         assert "gasp" in ttf
         assert "fpgm" in ttf
@@ -255,9 +253,7 @@ class IntegrationTest:
         from ufo2ft.constants import KEEP_GLYPH_NAMES
 
         instructions_ufo.lib[KEEP_GLYPH_NAMES] = False
-        ttf = compileTTF(
-            instructions_ufo, reverseDirection=False, removeOverlaps=False
-        )
+        ttf = compileTTF(instructions_ufo, reverseDirection=False, removeOverlaps=False)
         assert "cvt " in ttf
         assert "gasp" in ttf
         assert "fpgm" in ttf
